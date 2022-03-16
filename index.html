@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Gradients</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page" id="page-intro">
+        <div class="page-content">
+            <h1>CSS Gradients</h1>
+            <pre>
+selector {
+    background-image: <span>[type]</span>-gradient(<span>[options]</span>, <span>[colors]</span>);
+}
+            </pre>
+
+            <h2>Types</h2>
+            <div class="examples">
+                <div class="example">
+                    <div id="example-intro-types-1"></div>
+                    <p>linear</p>
+                </div>
+                <div class="example">
+                    <div id="example-intro-types-2"></div>
+                    <p>radial</p>
+                </div>
+                <div class="example">
+                    <div id="example-intro-types-3"></div>
+                    <p>conic</p>
+                </div>
+            </div>
+
+            <h2>Colors</h2>
+            <div class="examples">
+                <div class="example">
+                    <div id="example-intro-colors-1"></div>
+                    <p>red, yellow</p>
+                </div>
+                <div class="example">
+                    <div id="example-intro-colors-2"></div>
+                    <p>red, yellow, blue</p>
+                </div>
+                <div class="example">
+                    <div id="example-intro-colors-3"></div>
+                    <p>red, yellow 30%, blue</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="page-linear">
+        <div class="page-content">
+            <h1>Linear Gradients</h1>
+            <pre>
+linear-gradient(<span>[direction]</span>, <span>[colors]</span>)
+            </pre>
+
+            <h2>Directions</h2>
+            <div class="examples">
+                <div class="example">
+                    <div id="example-linear-1"></div>
+                    <p>to right</p>
+                </div>
+                <div class="example">
+                    <div id="example-linear-2"></div>
+                    <p>to top left</p>
+                </div>
+                <div class="example">
+                    <div id="example-linear-3"></div>
+                    <p>110deg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="page-radial">
+        <div class="page-content">
+            <h1>Radial Gradients</h1>
+            <pre>
+radial-gradient(<span>[shape]</span>, <span>[colors]</span>)
+            </pre>
+
+            <h2>Shapes</h2>
+            <div class="examples">
+                <div class="example example-rectangular">
+                    <div id="example-radial-1"></div>
+                    <p>circle</p>
+                </div>
+                <div class="example example-rectangular">
+                    <div id="example-radial-2"></div>
+                    <p>ellipse</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page" id="page-conic">
+        <div class="page-content">
+            <h1>Conic Gradients</h1>
+            <pre>
+conic-gradient(<span>from [angle]</span>, <span>[colors]</span>)
+            </pre>
+            
+            <h2>Angles</h2>
+            <div class="examples">
+                <div class="example">
+                    <div id="example-conic-1"></div>
+                    <p>default (from 0deg)</p>
+                </div>
+                <div class="example">
+                    <div id="example-conic-2"></div>
+                    <p>from 90deg</p>
+                </div>
+                <div class="example">
+                    <div id="example-conic-3"></div>
+                    <p>from 225deg</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
